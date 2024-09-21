@@ -1,0 +1,9 @@
+
+#create and push the file in the github
+cd project
+
+git add dummy.txtgit 
+commit -m "feat : added my name"
+git branch -M main
+git remote add origin https://github.com/janarthanoffl/gitlearn.git
+git push -u origin main
